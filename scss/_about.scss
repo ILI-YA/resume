@@ -10,7 +10,7 @@
                 rgba($primary-color, 0.9),
                 rgba($primary-color, 0.3)
             ),
-            url(../dist/img/main.jpg) center top;
+            url(../img/main.jpg) center top;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -22,13 +22,25 @@
         }
     }
 
+    &__bio-foto {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        top: 2rem;
+        left: center;
+        border: 1px solid #666;
+        border-radius: 50%;
+        background: url(../img/myFoto.jpg) left;
+        background-size: cover;
+    }
+
     &__bio {
         width: 80%;
         text-align: center;
 
         .text-secondary {
             padding-bottom: 1rem;
-        }
+        }  
     }
 
     .jobs {
@@ -42,6 +54,16 @@
             background: lighten($primary-color, 10%);
             padding: 0.5rem;
             border-bottom: 5px solid $secondary-color;
+
+            .skills {
+                margin: 0;
+                padding: 0;
+        
+                li{
+                    padding-top: 2px;
+                    list-style-type: none;
+                }
+            } 
 
             h2, h3 {
                 margin: 0.5rem 0;
