@@ -20,7 +20,7 @@
 
 .home__name {
   font-size: 5rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #fff;
 }
@@ -205,25 +205,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about__bio-image p {
-  margin-bottom: 2rem;
-}
-
-.about__bio-foto {
-  height: 10rem;
-  width: 10rem;
-  position: absolute;
-  top: 2rem;
-  left: center;
-  border: 1px solid #666;
-  border-radius: 50%;
-  background: url(../img/myFoto.jpg) left;
-  background-size: cover;
+  margin-bottom: 1rem;
 }
 
 .about__bio {
@@ -232,7 +220,7 @@
 }
 
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding: 2rem;
 }
 
 .about .jobs {
