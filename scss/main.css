@@ -30,6 +30,20 @@
   font-weight: 700;
 }
 
+.resume-icon {
+  padding: 1rem;
+}
+
+.resume-icon a {
+  padding: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.resume-icon a:hover {
+  color: #ff652f;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 1;
